@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\News\IndexController as NewsIndex;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +17,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::prefix('admin')->name('admin.')->group(function () {
+    Route::get('/', DashboardController::class);
+    Route::prefix('/news')->name('news.')->group(function () {
+        Route::get('/', NewsIndex::class)->name('index');
+    });
 });
