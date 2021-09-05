@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\News;
 use Illuminate\Http\Request;
 
-class IndexController extends Controller
+class StoreController extends Controller
 {
     /**
      * Handle the incoming request.
@@ -16,8 +16,15 @@ class IndexController extends Controller
      */
     public function __invoke(Request $request)
     {
-        $items = News::all();
+        $data = $request->all();
 
-        return view('admin.news.index', ['items' => $items]);
+        $news = News::create($data);
+        $news->image = $request->file('image')->store(
+            "assets/news/$news->id",
+            'public'
+        );
+        $news->save();
+
+        return redirect()->route('admin.news.index')->with('status', 'add-success');
     }
 }

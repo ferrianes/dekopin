@@ -3,9 +3,9 @@
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-laugh-wink"></i>
+            <i class="fas fa-money-bill-wave"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+        <div class="sidebar-brand-text mx-3">Admin</div>
     </a>
 
     <!-- Divider -->
@@ -21,8 +21,15 @@
     <!-- Nav Item - News -->
     <li class="nav-item">
         <a class="nav-link" href="{{ route('admin.news.index') }}">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <i class="fas fa-fw fa-newspaper"></i>
             <span>News</span></a>
+    </li>
+
+    <!-- Nav Item - Galleries -->
+    <li class="nav-item">
+        <a class="nav-link" href="{{ route('admin.gallery.index') }}">
+            <i class="fas fa-fw fa-images"></i>
+            <span>Galleries</span></a>
     </li>
 
     <!-- Divider -->

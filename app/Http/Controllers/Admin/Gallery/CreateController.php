@@ -1,12 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Admin\News;
+namespace App\Http\Controllers\Admin\Gallery;
 
 use App\Http\Controllers\Controller;
-use App\Models\News;
 use Illuminate\Http\Request;
 
-class IndexController extends Controller
+class CreateController extends Controller
 {
     /**
      * Handle the incoming request.
@@ -16,8 +15,6 @@ class IndexController extends Controller
      */
     public function __invoke(Request $request)
     {
-        $items = News::all();
-
-        return view('admin.news.index', ['items' => $items]);
+        return view('admin.gallery.create');
     }
 }
