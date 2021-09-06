@@ -67,6 +67,20 @@ Route::get('/home', function (Request $request) {
                     Di tengah disprupsi digital yang kian masif ini, Indonesia patut berbangga. Bonus demografi sudah ada di depan mata. Masa dimana banyaknya kelompok usia produktif akan lebih banyak dari non produktif. Data Badan Perencanaan Pembangunan Nasional (Bappenas) menunjukkan jumlah populasi penduduk kategori generasi milenial di Indonesia mencapai 90 juta orang[i]. Jumlah itu lebih dari sepertiga jumlah penduduk negeri ini.
                     '
                 ],
+                [
+                    'image' => url('img/news/Picture1.png'),
+                    'title' => 'Hari Koperasi Nasional, Dekopin Ziarah ke Makam Bung Hatta',
+                    'content' => 'TIMESINDONESIA, JAKARTA – Menyongsong Hari Koperasi Nasional yang jatuh pada 12 Juli, Dewan Koperasi Indonesia (Dekopin) melalui Dekopinwil DKI Jakarta melakukan ziarah ke makam Bung Hatta di kompleks Pemakaman TPU Tanah Kusir, Jakarta, Jumat (2/7/2021). 
+                    Ziarah tersebut dilakukan dalam rangka menyambut peringatan ulang tahun Hari Koperasi Nasional ke-74 tahun 2021. Ziarah ke makam Bung Hatta merupakan penghormatan kepada pencetus koperasi Indonesia.
+                    Kegiatan yang dilakukan dalam kondisi pandemi Covid-19 ini, mengharuskan Ketua Umum Dekopin, Sri Untari mengutus Dekopinwil DKI Jakarta untuk melaksanakan agenda tabur bunga dan ziarah di makam Bung Hatta.
+                    "Saya mengutus ketua Dekopinwil Jakarta dengan rekan-rekan yang ada di Jakarta untuk melaksanakan agenda kami ke makam Bung Hatta untuk mengawali semua proses pergerakan melaksanakan HUT Koperasi Nasional ke 74," ujar Sri Untari kepada TIMES Indonesia, Jumat (2/7/2021).
+                    Selanjutnya, dalam kegiatan tersebut, kata Untari, Dekopinwil DKI Jakarta melakukannya secara terbatas dan tertib menerapkan protokol kesehatan.
+                    "Kita mengikuti seluruh perintah dari negara. Kita melalui instruksi presiden maupun dari keputusannya. Tapi ini tidak menutup dan mengurangi makna dari kami mencintai Bung Hatta sebagai Bapak Koperasi Indonesia," ujarnya.
+                    Sementara itu, perwakilan keluarga Bung Hatta, yakni Sri Edi Swasono mengapresiasi kegiatan Dekopin yang melaksanakan kegiatan ziarah dan tabur bunga secara sederhana dengan mengikuti prokes ketat.
+                    "Karena ada PPKM Darurat ini, keluarga Bung Hatta pun sangat mendukung kegiatan ini meski tidak bisa ikut hadir. Maka dengan sederhana, kami berangkat sesuai dengan restu dan pangestu dari keluarga Bung Hatta," katanya.
+                    Terakhir, Untari pun sangat berbangga dengan menyambut Hari ke-74 Koperasi Nasional, sebagaimana penguatan ekonomi bangsa melalui koperasi sangat penting.
+                    "Jayalah koperasi Indonesia. Kuatlah ekonomi bangsa melalui koperasi," ujar Sri Untari, Ketua Umum Dekopin dalam menyongsong Hari Koperasi Nasional.'
+                ]
             ],
             'podcast' => [
                 [
