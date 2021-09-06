@@ -29,7 +29,7 @@ Route::get('/', function () {
 });
 
 Route::prefix('admin')->name('admin.')->group(function () {
-    Route::get('/', DashboardController::class);
+    Route::get('/', DashboardController::class)->name('index');
     Route::prefix('/news')->name('news.')->group(function () {
         Route::get('/', NewsIndex::class)->name('index');
         Route::get('/create', NewsCreate::class)->name('create');
